@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+  background: #f4f4f4;
+  height: 400px;
+  display: flex;
+  justify-content: space-between;
+}
+
+ul {
+  background: #f4f4f4;
+  display: flex;
+  list-style: none;
+}
+ul li {
+  padding: 10px;
+  margin: 10px;
+  background: yellow;
+}/*# sourceMappingURL=style.css.map */

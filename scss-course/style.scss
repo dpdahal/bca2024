@@ -1,0 +1,27 @@
+$bgColor: #f4f4f4;
+
+body{
+    margin: 0;
+    
+  }
+ 
+  
+  .container{
+    width: 90%;
+    margin: auto;
+    background: $bgColor;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  ul{
+    background: $bgColor;
+    display: flex;
+    list-style: none;
+    li{
+        padding: 10px;
+        margin: 10px;
+        background: yellow;
+    }
+  }

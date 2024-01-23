@@ -1,0 +1,15 @@
+.container {
+    width: 80%;
+    height: 500px;
+    /*background: red;*/
+    /*background: #8a3d3d;*/
+    /*background:url("../image/b.jpg") no-repeat;*/
+    /*background-size: cover;*/
+    /*background-position: center;*/
+    /*background-color: red;*/
+    background: linear-gradient(to right, #8a3d3d, green);
+
+    margin: auto;
+
+
+}

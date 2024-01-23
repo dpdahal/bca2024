@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right,pink,deeppink);
+    height: 100vh;
+    display: flex;
+    align-content: center;
+}
+.main-container{
+    width: 30%;
+    height: 600px;
+    background: white;
+    margin: auto;
+    border-radius: 10px;
+}
+.container{
+    width: 90%;
+    margin: auto;
+    height: 100px;
+}
+.container .title{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.login-btn-section{
+    display: flex;
+}
+
+.login{
+    width: 50%;
+    background: linear-gradient(to right,deeppink, #fc95a4);
+    height: 40px;
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    border-radius: 2px;
+
+}
+
+.signup{
+    width: 50%;
+    background: white;
+    border: 1px solid #d9d5d5;
+}

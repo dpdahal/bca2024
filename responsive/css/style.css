@@ -1,0 +1,32 @@
+.container {
+    width: 90%;
+    min-height: 200px;
+    background: #b7b7b7;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left {
+    width: 49%;
+    height: 200px;
+    background: red;
+}
+
+.right {
+    width: 49%;
+    height: 200px;
+    background: blue;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+    .left {
+        width: 100%;
+    }
+    .right {
+        width: 100%;
+    }
+}
